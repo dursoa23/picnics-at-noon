@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  background:  url(images/head_food.jpg) repeat;
+  padding: 20px;
+  text-align: center;
+  height: 9em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #f6a2cfff;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #f6a2cfff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.image {
+  float: left;
+  margin: 10px;
+}
+
+.column {
+  font-size: large;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #f6a2cfff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+footer{
+    padding: 1em;
+    background:  url(images/footer.jpg) repeat;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-family: 'PT Serif', serif;    
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+  <h1>Foods</h1>
+</div>
+</div>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="theme.html">Themes</a>
+    <a href="foods.html">Foods</a>
+    <a href="places.html">Places</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Yummy in our Tummy</h2>
+    <div class="image">
+      <img src="art/foods/new top.jpg" width="400px">
+    </div>
+    <p>There are many different types of foods that you can bring to a picnic, for example you can bring pastries or cake. You can bring boba and even stuffed animals. 
+    </p>
+
+    <h2>Le Menu: Perfect Picnic Pairings</h2>
+    <p>
+    When picnicking went from high-class to ubiquitous in Victorian England, menus were hearty, to put it mildly. A typical menu for 40 might’ve included “cold roast beef, four meat pies, four roast chickens, two roast ducks, four dozen cheesecakes and one large cold plum pudding… three dozen quart bottles of beer… as well as claret, sherry and brandy,” recounts History.com. Thankfully, that has changed. Nowadays, it’s about fresh and straightforward.
+    </p>
+    <p>For your menu, weigh the location with the time of day, guests and theme, then put together a list of dishes to match. But, as SAVEUR counsels, always keep it simple. You’ll want a protein, starch and vegetable or fruit, plus dessert and beverages. Consider the format, too. Fun and modern, not to mention healthy, are salads in portable jars and colorful skewers or kebabs. Proven crowd pleasers are cold chicken, whether BBQ’d or deep-fried, watermelon, wrap pinwheels, all-in-one salad dishes, and for dessert, chocolate-chip cookies and brownies.
+    </p>
+    <div class="image">
+      <img src="art/foods/new new bottom.jpg" width="300px">
+    </div>
+    <h2>Potato Salad — From Traditional to Fusion</h2>
+    <p>
+      Little Potatoes are a must on any picnic menu, especially the classic staple, potato salad. Creamers blend well with virtually everything, are easy to prepare and can be made well in advance to save time. Make any of these favorite potato salad recipes—from Thai and vegan to Lebanese, Greek yogurt, and the traditional.
+    </p>
+
+    <h2>Last-miniute Picnics</h2>
+    <p>
+    If you make your picnic spontaneous, it’s more of an adventure. It also keeps the focus on the folks, versus the food, which is good, plus adds zero stress and planning time. In 15 minutes, you should be able to gather together the food and drinks, basket (cooler or bag), blanket/tablecloth, plus recyclable plates, cups and (if needed) silverware. (Pro tip: Have an insulated picnic to-go bag at the ready. Put it in a convenient location so you can just grab it if you decide it’s picnic time.)
+    </p>
+    <p>Keep the menu simple to the max; e.g., sandwiches, last night’s leftovers, take-out pizza or barbecue wings, or just a bunch of healthy snacks from the fridge and cupboard. Get everyone who’s going to help put it all together. Then, pick a nice spot—your patio, a clearing in the woods, a riverside picnic table—add a Frisbee and head out!
+    </p>
+
+  </div>
+
+</div>
+<div class="footer">
+  <footer>
+      A. Durso 
+      <br>P5 Web Design 
+      <br>Walpole High School 
+      <br>J. Reuther
+  </footer>
+</div>
+</body>
+</html>
+
+

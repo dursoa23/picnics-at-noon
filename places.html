@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  height: 9em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+  background:  url(images/head_places.jpg) repeat;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #89cb6cff;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #89cb6cff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.image {
+  float: left;
+  margin: 10px;
+}
+
+.column {
+  font-size: large;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #89cb6cff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+footer{
+    padding: 1em;
+    background:  url(images/footer.jpg) repeat;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-family: 'PT Serif', serif;    
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+  <h1>Places</h1>
+</div>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="theme.html">Themes</a>
+  <a href="foods.html">Foods</a>
+  <a href="places.html">Places</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Picnic Places</h2>
+    <h3>Spectacle Island, Boston Harbor, MA</h3>
+    <p>A short ferry ride from Boston Long Wharf lands you at Spectacle Island, one of the Boston Harbor Islands. In addition to enjoying your picnic, you can swim in one of very few places in Boston Harbor where that is allowed</p>
+
+    <h3>Smolak Farms, North Andover, MA</h3>
+    <p>Parking is free at Smolak Farms, a 300-acre farm and orchard. After your picnic, stop by their farm stand and bakery or indulge in a decadent ice cream cone.</p>
+
+    <h3>The Bradley Estate, Canton, MA</h3>
+    <p>Even though the mansion on the Bradley Estate is used for weddings and other private functions, the 90-acre grounds are the perfect spot for a picnic. Check the website for information on an educational walk around the estate—the perfect way to work off that picnic.</p>
+
+    <h3>Maudslay State Park, Newburyport, MA</h3>
+    <p>Picnic beside the Merrimack River at Maudslay State Park. The $2 parking fee is nothing once you see the wildlife, wildflowers, and beautiful stone bridge.</p>
+
+    <h3>Minute Man National Park, Concord, MA</h3>
+    <p>Enjoy 1,000 acres of history when you picnic at Minute Man National Park. Hiking trails will take you through spots where Revolutionary War battles were fought. You must take your trash away with you, as there are no receptacles on site.</p>
+
+    <h3>Hale Education, Inc., Westwood, MA</h3>
+    <p>Four ponds and 21 miles of trails make for a beautiful picnic area. Hale Reservation is also home to a day camp during the summer months, but visitors are welcome on the grounds. Located just a short drive from Boston, city dwellers love this escape to nature.</p>
+
+    <h3>Corey Hill Outlook, Brookline, MA</h3>
+    <p>Featuring a large sloping lawn and a rather grueling climb to the top, Corey Hill Outlook affords picnickers and others a fabulous view of the city on clear days. Definitely wear sturdy shoes if planning to hike to the top.</p>
+
+    <h3>Bradley Palmer State Park, Topsfield, MA</h3>
+    <p>Seven-hundred acres of meadowland on this former estate make for perfect picnicking at Bradley Palmer State Park. Located along the Ipswich River, there is a wading pool and designated picnic area as well.</p>
+
+    <h3>Halibut Point State Park, Rockport, MA</h3>
+    <p>Sloping granite ledges allow very careful and agile picnickers views that sometimes reach as far as New Hampshire at Halibut Point State Park. While it’s best to picnic on the adjacent grass, this makes for an exciting (and probably even exhausting) post-lunch activity.</p>
+
+    <h3>Westville Dam, Southbridge and Sturbridge, MA</h3>
+    <p>Located between Southbridge and Sturbridge, Westville Dam has a beautiful picnic area with shelters that may be reserved for special events. A walking trail allows for exercise before you return to your picnic for dessert.</p>
+
+    <h3>Goodwill Park, Falmouth, MA</h3>
+    <p>Wooden pathways connect Goodwill Park to a freshwater public beach. In addition to a picnic area with grills, there are activities like horseshoes and volleyball.</p>
+
+    <h3>Boston Public Garden, Boston, MA</h3>
+    <p>Take a ride on the swan boats and picnic near the “Make Way for Duckling” Ducks at Boston Public Garden. Lay back and enjoy this tranquil city oasis—or people watch—as you digest.</p>
+
+    <h3>Singing Beach, Manchester-by-the-Sea, MA</h3>
+    <p>The sand “sings” at Singing Beach, in the town that now has a film named after it. Even though non-residents must park about a half-mile away, it’s worth the walk to enjoy your picnic here.</p>
+
+    <h3>Larz Anderson Park, Brookline, MA</h3>
+    <p>Listed on the National Register of Historic Places, Larz Anderson Park is reminiscent of a bygone era. Enjoy your picnic under the willow trees or at one of the tables with grills in the designated area.</p>
+    <p>Dust off your picnic basket and start planning your picnic fare. With this vast array of Massachusetts spots, you’ll have a picnic planned for every weekend this coming spring and summer.  </p>
+  </div>
+
+</div>
+<div class="footer">
+  <footer>
+    A. Durso 
+    <br>P5 Web Design 
+    <br>Walpole High School 
+    <br>J. Reuther
+</footer>
+</div>
+</body>
+</html>
+
+

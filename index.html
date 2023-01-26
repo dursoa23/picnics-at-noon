@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  background:  url(images/head_home.jpg) repeat;
+  height: 9em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #a4dbffff;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+footer{
+    padding: 1em;
+    background:  url(images/footer.jpg) repeat;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-family: 'PT Serif', serif;    
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #a4dbffff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.image {
+  float: right;
+}
+
+.column {
+  font-size: large;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+  <h1>Picnics at Noon</h1>
+</div>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="theme.html">Themes</a>
+  <a href="foods.html">Foods</a>
+  <a href="places.html">Places</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>All About Picnics</h2>
+
+    <p>Picnics are special gathering or a special event that can commemorate anything you want. They can also be something you can have just for fun with friends or family! Picnics don't even have to be a sit down and eat thing! They can also be just a fun thing to do with friends, you can read and just sit and watch the scenery!</p> 
+
+    <p>Within this website we will be talking all about picnic themes, picnic foods, and picnic places! 
+    Be ready to learn all about the wonderful things that are picnics!</p>  
+
+    <div class="image">
+      <img src="art/home.picnics.at.noon/right.jpg" width="75%">
+    </div>
+
+    <h2>A Longtime Tradition</h2>
+    <p>
+      The written word “picnic” first surfaced in the 1600s. It comes from the French “pique-nique,” a term for wealthy gourmands bringing along bottles of wine to restaurants and bistros when dining out. The “pique-nique” evolved to high-brow al fresco meals, then became big in Victorian England for folks from all walks of life.
+    </p>
+
+    <h2>How to Host the Best Picnic</h2>
+    <p>
+      Start by thinking about what type of picnic you want to have. When planning your outside lunch or dinner outing, ask yourself what type of meal you have in mind: simple or fancy? Family-friendly or for the adult set? Will it be a casual, crowd-pleasing lunch for relatives spanning the generations from toddlers to grandparents, or a sophisticated dinner affair for foodie friends? Are you hosting it all or coordinating a potluck? After you’ve identified your guest group and style, then you can consider the format.
+    </p>
+
+    <h2>The Essentials</h2>
+    <p>
+      What you don’t want is to arrive with all the great goodies minus the blanket or corkscrew. Consult this picnic essentials list (below) to make sure you’ve got it all in the basket. Here’s a checklist that covers the basics:
+    </p>
+    <p>
+      <ul class="a">
+        <li>Picnic blanket</li>
+        <li>Picnic basket or backpack with the food</li>
+        <li>Thermos or bottled water (in plastic)</li>
+        <li>Lemonade, iced tea, sparkling water and/or wine or beer</li>
+        <li>Corkscrew if needed</li>
+        <li>Silverware (bamboo flatware is ideal)</li>
+        <li>A sharp knife, tucked into a blade protector</li>
+        <li>Plastic or metal cups</li>
+        <li>Napkins, paper or bamboo plates</li>
+        <li>A zipped cooler bag for your edibles</li>
+        <li>A dishtowel and rag for spills (wrap any glass containers in these, too, for transport)</li>
+        <li>A solar votive or two for ambiance</li>
+        <li>A lantern and flashlight if you’ll be staying past sunset</li>
+        <li>A bag for trash/recyclables</li>
+        <li>Wasp guard, bug repellent, fly swatter</li>
+        <li>Binoculars, a local bird-watching guide</li>
+        <li>A kite, Frisbee or ball</li>
+      </ul>
+    </p>
+ 
+  </div>
+
+</div>
+<div class="footer">
+    <footer>
+        A. Durso 
+        <br>P5 Web Design 
+        <br>Walpole High School 
+        <br>J. Reuther
+    </footer>
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=PT+Serif&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;  
+  background:  url(images/head_theme.jpg) repeat;
+  height: 9em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ffd966ff;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+    padding: 1em;
+    background:  url(images/footer.jpg) repeat;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-family: 'PT Serif', serif;    
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffd966ff;
+  opacity: 0.9;
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column {
+  font-size: large;
+}
+
+.imageleft {
+  float: left;
+}
+
+.imageright {
+  float: right;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+  <h1>Themes</h1>
+</div>
+</div>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="theme.html">Themes</a>
+    <a href="foods.html">Foods</a>
+    <a href="places.html">Places</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Picnics4eva</h2>
+
+    <div class="imageleft">
+      <img src="art/theme/top lefft.jpg" width="300px">
+    </div>
+
+    <p>There are many different themes of picnics, if you look to the picnic on the left of this text you will see a picnic full of different snacks and candy. Picnics can be anything you want them to be.
+    This picnic here is just a lot of cheap foods and treats that can be enjoyed with all your friends. Picnics do not have to be a big, expensive thing, they can be easy, cheap, and fun!
+    </p>
+
+    <h2>Feast in the Fields</h2>
+    <p>Some popular concepts include the long-table feast in the fields. This can be a locavore harvest dinner in your back yard, at a pastoral park, or at an area farm or winery where you serve just-harvested, rustic seasonal fare at a feasting table for 12 or 24: dishes such as tomato, basil and buffalo mozzarella salad, herbed Little Potatoes and roasted pork tenderloin. Illuminate the area with twinkle lights or solar lanterns and dress the table with organic botanicals: artfully placed fresh fruit such as apples and pears, garlands of herbs or hops, tin cans filled with wildflower bouquets, ribbon-tied bundles of fragrant lavender.</p>
+
+    <h2>Dine on the Shore</h2>
+    <p> Another favorite is the beach picnic. Pick a theme—seafood, BBQ, Caribbean, artisan—and lay out a colorful blanket with cushions for comfy seating (or beach chairs) and festive shade umbrellas. Be sure to have a cooler on hand to keep food cool til serving and a folding table where you can set out the buffet well above the sand. Use summer-motif plastic trays, plates and cups (with sealing lids and straws) with matching cloth napkins. Iced tea is refreshing, but doesn’t lure ants and wasps as much as lemonade does. Or serve the ruby-hued upscale version: iced ginger hibiscus tea.
+    </p>    
+    <div class="imageright">
+      <img src="art/theme/new.jpg" width="300px">
+    </div>
+    <p>Think cool and refreshing with your menu selections, plus choose foods that are easy to eat with your fingers, not messy or goopy, and don’t require silverware. If you’ll be staying late and gathering around the bonfire, be sure to bring newspaper, kindling, firewood and matches. Go fancy with lobster salad on French bread or down-home style with barbecued chicken drumsticks, mini corn on the cob wheels, carrots and celery sticks. Also good is an assortment of sandwiches cut into triangle halves, plus fruit and chips or chili-lime popcorn.
+    </p>
+
+    <h2>Just for Two</h2>
+    <p>A classic is the romantic picnic in a meadow a la Tuscany’s “A Room with a View.” Pull out all the stops for this one: a traditional picnic blanket, a wicker basket, real silverware, a mini wooden cutting board, cloth napkins and wine glasses. Fill your basket with gourmet delicacies from a farm stand or artisanal grocer. Staples might include a crusty baguette, Brie and goat cheese, olives, grapes, heirloom apples, patté and smoked salmon, plus Belgian or Swiss chocolate for dessert. Bring a bottle of sparkling water and a nice Chianti, perhaps a guitar, if you’re so inclined.</p>
+
+    <h2>Laidback at Home</h2>
+    <p>The casual back yard picnic is a must for everyone. For grown-ups, it brings you back to the warm-‘n-fuzzy feeling of endless summer: long, balmy evenings outside til after dark with the aroma of grilling burgers and freshly mown grass. For kids, it’s a chance to run around, play in the sprinklers, and grab tasty bites off the picnic table when mom’s not watching. And for the host, it’s also a relaxing way to entertain—whether it’s friends, neighbors, family or the company picnic. There’s no mess, few dishes and no worries about spills or breaks. Dining in the back yard is also just very chill, thanks to the outdoor setting, laidback vibe and generally more casual menu to match. Either serve the usual picnic faves or cook something up on the barbecue.
+    </p>
+      
+    <p> Back yard dinners are perfect for buffet-style, and guests can either eat at the patio picnic table, while milling around and socializing, or around the garden on lawn chairs. You can leave the décor to simply patio lights plus a floral tablecloth or go all Martha Stewart with a special theme. If entertaining stresses you out, a back yard picnic is your chance to host without the pressure. You can make absolutely everything in advance, then set it out and relax and enjoy. Or, if the chicken is taking too long on the grill, just bring out a set of badminton rackets and no one will ever notice!
+    </p>
+  </div>
+
+</div>
+<div class="footer">
+  <footer>
+      A. Durso 
+      <br>P5 Web Design 
+      <br>Walpole High School 
+      <br>J. Reuther
+  </footer>
+</div>
+</body>
+</html>
+
+
